@@ -1373,6 +1373,22 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 9px;
   }
 
+  .md\:-ml-\[95px\] {
+    margin-left: -95px;
+  }
+
+  .md\:ml-3 {
+    margin-left: 0.75rem;
+  }
+
+  .md\:ml-5 {
+    margin-left: 1.25rem;
+  }
+
+  .md\:ml-4 {
+    margin-left: 1rem;
+  }
+
   .md\:flex {
     display: flex;
   }
