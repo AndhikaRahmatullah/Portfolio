@@ -1153,6 +1153,42 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 768px;
   }
 
+  .md\:w-\[1024px\] {
+    width: 1024px;
+  }
+
+  .md\:w-\[1024\] {
+    width: 1024;
+  }
+
+  .md\:w-\[10004px\] {
+    width: 10004px;
+  }
+
+  .md\:w-\[1004px\] {
+    width: 1004px;
+  }
+
+  .md\:w-\[1000px\] {
+    width: 1000px;
+  }
+
+  .md\:w-\[868px\] {
+    width: 868px;
+  }
+
+  .md\:w-\[818px\] {
+    width: 818px;
+  }
+
+  .md\:max-w-screen-lg {
+    max-width: 1024px;
+  }
+
+  .md\:max-w-lg {
+    max-width: 32rem;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
