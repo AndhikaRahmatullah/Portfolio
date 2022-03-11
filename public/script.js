@@ -6,16 +6,16 @@ joinNow.addEventListener(`click`, function () {
 
 const submit = document.querySelector(`#submit`);
 submit.addEventListener(`click`, function () {
-	// 	const email = document.querySelector(`#email`);
-	// 	const nama = document.querySelector(`#nama`);
-	// 	const pesan = document.querySelector(`#pesan`);
+	const email = document.querySelector(`#email`);
+	const nama = document.querySelector(`#nama`);
+	const pesan = document.querySelector(`#pesan`);
 
-	// 	alert(`Email : ${email.value}
-	// Nama : ${nama.value}
-	// Pesan : ${pesan.value}
+	alert(`Email : ${email.value}
+Nama : ${nama.value}
+Pesan : ${pesan.value}
 
-	// Pesan anda sukses terkirim! 
-	// Terimakasih telah berkunjung di Portfolio Portfolio-an Dika.`);
+Pesan anda sukses terkirim! 
+Terimakasih telah berkunjung di Portfolio Portfolio-an Dika.`);
 
 	let prom = Number(prompt(`Beri Nilai (1 - 10) Untuk Website Ini : `));
 	console.log(prom);
