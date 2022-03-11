@@ -20,16 +20,16 @@ Terimakasih telah berkunjung di Portfolio Portfolio-an Dika.`);
 	let prom = Number(prompt(`Beri Nilai (1 - 10) Untuk Website Ini : `));
 	console.log(prom);
 	if ((prom >= 0) && (prom <= 4)) {
-		alert(`Hmm.. Ga apa apa, Dika akan bekerja lebih baik lagi. Terimakasih ya !`)
+		alert(`Hmm.. Ga apa apa, Dika akan bekerja lebih baik lagi. Terimakasih ya ${nama.value} !`)
 	}
 	else if ((prom >= 5) && (prom <= 7)) {
-		alert(`Baik, Terimakasih atas penilaiannya !`)
+		alert(`Baik, Terimakasih atas penilaiannya ${nama.value} !`)
 	}
 	else if ((prom >= 8) && (prom <= 10)) {
-		alert(`WOWW ! Terimakasih atas penilaiannya !`)
+		alert(`WOWW ! Terimakasih atas penilaiannya ${nama.value} !`)
 	}
 	else if ((prom <= 0) || (prom >= 11)) {
-		alert(`1 sampai 10 please bro sis !`)
+		alert(`1 sampai 10 please ${nama.value} !`)
 	}
 
 });
