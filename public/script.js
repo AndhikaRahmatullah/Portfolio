@@ -33,8 +33,3 @@ Terimakasih telah berkunjung di Portfolio Portfolio-an Dika.`);
 	}
 
 });
-
-// for (let a = 0; a < array.length; a++) {
-// 	const element = array[a];
-
-// }
